@@ -1,60 +1,61 @@
 <ion-content>
-  <ion-list style="margin-top: 16px; margin-bottom: 100px">
-    <app-chat-item
-      mensagem="Oi, meu nome é Susi. Sou sua assistente virtual de Saúde Pública. Quer saber do que sou capaz? Aperte aquele botãozinho rosa no canto da tela e vamos conversar. :D"
-      autor="susi"
-      criadoEm="08:06">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Em que posso ajudar hoje?"
-      autor="susi"
-      criadoEm="08:06">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Susi, qual a unidade de saúde mais próxima?"
-      autor="eu"
-      criadoEm="08:07">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Estou providenciando, só um minutinho."
-      autor="susi"
-      criadoEm="08:07">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Aqui está"
-      autor="susi"
-      criadoEm="08:07"
-      [result]="{
-        id: '0002',
-        nome: 'UABSF Setor São Judas Tadeu',
-        telefone: '62 9 8765 4321',
-        horarioAtend: ['07:00', '19:00'],
-        coords: [-16.615216, -49.248603],
-        distancia: 2.3,
-        indicador: 1,
-        emdereco: 'Av. Brasília, St. São Judas Tadeu'
-      }">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Posso ajudar em mais alguma coisa?"
-      autor="susi"
-      criadoEm="08:07">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Não, era só isso mesmo"
-      autor="eu"
-      criadoEm="08:08">
-    </app-chat-item>
-    <app-chat-item
-      mensagem="Ok! Precisando, é só chamar."
-      autor="susi"
-      criadoEm="08:08">
-    </app-chat-item>
-  </ion-list>
-  <ion-fab vertical="bottom" horizontal="end" slot="fixed" 
-    style="bottom: 15px; right: 15px;">
-    <ion-fab-button color="secondary">
-      <ion-icon name="microphone" color="light"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
-</ion-content>
+    <ion-list style="margin-top: 16px; margin-bottom: 100px; max-width: 400px; margin: 0 auto">
+      <app-chat-item
+        mensagem="Oi, meu nome é Susi. Sou sua assistente virtual de Saúde Pública. Quer saber do que sou capaz? Aperte aquele botãozinho rosa no canto da tela e vamos conversar. :D"
+        autor="susi"
+        criadoEm="08:06">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Em que posso ajudar hoje?"
+        autor="susi"
+        criadoEm="08:06">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Susi, qual a unidade de saúde mais próxima?"
+        autor="eu"
+        criadoEm="08:07">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Estou providenciando, só um minutinho."
+        autor="susi"
+        criadoEm="08:07">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Aqui está"
+        autor="susi"
+        criadoEm="08:07"
+        [result]="{
+          id: '0002',
+          nome: 'UABSF Setor São Judas Tadeu',
+          telefone: '62 9 8765 4321',
+          horarioAtend: ['07:00', '19:00'],
+          coords: [-16.615216, -49.248603],
+          distancia: 2.3,
+          indicador: 1,
+          emdereco: 'Av. Brasília, St. São Judas Tadeu'
+        }">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Posso ajudar em mais alguma coisa?"
+        autor="susi"
+        criadoEm="08:07">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Não, era só isso mesmo"
+        autor="eu"
+        criadoEm="08:08">
+      </app-chat-item>
+      <app-chat-item
+        mensagem="Ok! Precisando, é só chamar."
+        autor="susi"
+        criadoEm="08:08">
+      </app-chat-item>
+    </ion-list>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" 
+      style="bottom: 15px; right: 15px;">
+      <ion-fab-button color="secondary">
+        <ion-icon name="microphone" color="light"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-content>
+  
