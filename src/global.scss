@@ -12,7 +12,12 @@
 
 ion-modal {
   padding: 20vh 16px;
-  background: rgba(0,0,0,0.45);
+  --background: none !important;
+}
+
+app-details {
+  background: white !important;
+  border-radius: 8px !important;
 }
 
 .ion-color-successlight {

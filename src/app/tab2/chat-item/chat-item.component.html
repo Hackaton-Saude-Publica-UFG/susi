@@ -6,8 +6,11 @@
         <br>
         <div class="result" *ngIf="result && autor === 'susi'" >
           <img src="assets/imgs/map.png">
-          <div>{{ result.nome }}</div>
-          <span>{{ result.distancia }}km - <span class=""></span> {{ result.indicador }} </span>
+          <b>{{ result.nome }}</b>
+          <br>
+          <span>{{ result.telefone }}</span>
+          <br>
+          <small>{{ result.distancia }}km</small>
         </div>
         <ion-text class="criadoEm" color="medium">
           <small>{{ criadoEm }}</small>

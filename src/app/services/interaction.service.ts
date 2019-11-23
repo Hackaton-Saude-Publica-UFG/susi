@@ -44,7 +44,7 @@ export class InteractionService {
     const alert = await this.alertCtrl.create({
       header: opt.header,
       subHeader: opt.subHeader,
-      message: opt.message,
+      message: opt.message || '',
       buttons: opt.buttons ? opt.buttons : [{
         text: 'Ok',
         role: 'close'
@@ -77,7 +77,7 @@ export class InteractionService {
 export interface Alert {
   header?: string;
   subHeader?: string;
-  message: string;
+  message?: string;
   inputs?: any[];
   buttons?: AlertButton[];
 }

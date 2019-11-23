@@ -17,7 +17,7 @@
     &.eu {
         margin-left: 70px;
         .holder-ballon > .ballon {
-            background-color: #eee !important;
+            background-color: rgb(221, 247, 255) !important;
             float: right;
             border-bottom-right-radius: 0 !important;
         }
@@ -28,11 +28,14 @@
             float: left;
             border-bottom-left-radius: 0 !important;
             .criadoEm {
-                color: rgb(243, 77, 105) !important;
+                color: #f34d69 !important;
             }
         }
         .result {
             margin-top: 8px;
+            padding: 3px;
+            border-radius: 7px;
+            background-color: #f595a7;
             img {
                 border-radius: 4px;
             }
