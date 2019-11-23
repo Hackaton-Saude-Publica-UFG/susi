@@ -1,1 +1,4 @@
-# TODO: dados de acesso ao projeto
+
+# Acesse nossa [live demo](susiufg.web.app)
+---
+![logo](./src/assets/imgs/susi.svg)
